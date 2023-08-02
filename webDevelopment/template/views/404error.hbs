@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    {{>metaLinks}}
+</head>
+<body>
+   
+
+   {{>navbar}}
+     
+      <!----main header---->
+
+       <div class="containter-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!---left side div-->
+                 <!---right side div-->
+             <div class="col-md-23 col-12 main_header_left align-items-center">
+
+              <figure class="errimg">
+                <img src="images/404.png" width=500 height =300 alt="img" class="img-fluid" title="dev image">
+              </figure>
+             
+           
+               
+                <h1>{{errorMsg}}</h1>
+                <a href="/" target="_blank"><button>Go back</button></a>
+             </div>
+            </div>
+              
+            </div>
+        </div>
+    </div>
+    <!---footer--->
+    {{>footer}}
+</body>
+</html>
